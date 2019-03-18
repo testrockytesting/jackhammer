@@ -23,7 +23,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #jquery ui
 gem 'jquery-ui-rails'
 #authentication and roles
-gem 'devise'
+gem 'devise', '>= 4.6.0'
 gem 'cancancan'
 gem 'rolify'
 #bootstrap
