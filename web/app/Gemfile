@@ -96,7 +96,7 @@ gem 'ruby-progressbar'
 gem 'terminal-table'
 gem 'yajl-ruby'
 #string formation
-gem 'kramdown'
+gem 'kramdown', '>= 2.3.0'
 gem 'rails_autolink'
 gem 'RedCloth'
 gem 'loofah'
