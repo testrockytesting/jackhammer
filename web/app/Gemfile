@@ -42,8 +42,8 @@ gem 'octokit'
 #gitlab
 gem 'gitlab'
 #oauth
-gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-github', '>= 2.0.0'
 # redis && caching
 gem 'redis-rails'
 gem 'rails-settings-cached'
