@@ -38,7 +38,7 @@ gem 'owasp-pipeline', '>= 0.8.7'
 gem 'whenever'
 gem 'chronic'
 #github api
-gem 'octokit'
+gem 'octokit', '>= 4.7.0'
 #gitlab
 gem 'gitlab'
 #oauth
@@ -91,7 +91,7 @@ gem 'therubyracer'
 gem 'ruby-nmap'
 #wp scan
 gem 'typhoeus'
-gem 'addressable'
+gem 'addressable', '>= 2.8.0'
 gem 'ruby-progressbar'
 gem 'terminal-table'
 gem 'yajl-ruby'
@@ -100,7 +100,7 @@ gem 'kramdown'
 gem 'rails_autolink'
 gem 'RedCloth'
 gem 'loofah'
-gem 'premailer-rails'
+gem 'premailer-rails', '>= 1.9.5'
 gem 'arachni'
 gem 'arachni-reactor'
 gem 'sidekiq-scheduler'
@@ -122,7 +122,7 @@ group :development, :test do
 	gem 'rspec'
 	gem "rspec-rails"
 	gem "factory_girl_rails"
-	gem 'capybara'
+	gem 'capybara', '>= 2.12.1'
 	gem 'spring-commands-rspec'
 	gem 'database_cleaner'
 
@@ -137,6 +137,6 @@ group :development do
 	#gem 'spring'
 end
 group :test do
-	gem 'webmock', '>=1.17.2'
+	gem 'webmock', '>= 2.3.2'
 	gem 'simplecov'
 end
