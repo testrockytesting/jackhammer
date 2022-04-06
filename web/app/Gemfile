@@ -94,7 +94,7 @@ gem 'typhoeus'
 gem 'addressable'
 gem 'ruby-progressbar'
 gem 'terminal-table'
-gem 'yajl-ruby'
+gem 'yajl-ruby', '>= 1.4.2'
 #string formation
 gem 'kramdown'
 gem 'rails_autolink'
