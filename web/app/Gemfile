@@ -51,7 +51,7 @@ gem 'redis-namespace'
 #sidekiq
 gem 'sidekiq'
 gem 'sidekiq-status'
-gem 'sinatra', :require => false # for the UI
+gem 'sinatra', '>= 2.2.0', :require => false # for the UI
 # ENV Variables
 gem 'figaro'
 #eager load notification
