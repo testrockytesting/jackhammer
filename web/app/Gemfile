@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails', '5.2.8.1'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.3.13', '< 0.5'
 # Use SCSS for stylesheets
@@ -84,7 +84,7 @@ gem 'puma'
 gem 'foreman'
 gem 'actionpack-action_caching'
 gem 'spinjs-rails'
-gem 'activerecord-session_store'
+gem 'activerecord-session_store', '>= 1.1.1'
 gem 'crack'
 gem 'execjs'
 gem 'therubyracer'
