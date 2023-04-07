@@ -49,7 +49,7 @@ gem 'redis-rails'
 gem 'rails-settings-cached'
 gem 'redis-namespace'
 #sidekiq
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.0.8'
 gem 'sidekiq-status'
 gem 'sinatra', :require => false # for the UI
 # ENV Variables
@@ -106,7 +106,7 @@ gem 'arachni-reactor'
 gem 'sidekiq-scheduler'
 gem 'toastr-rails'
 gem 'local_time'
-gem 'sidekiq-statistic'
+gem 'sidekiq-statistic', '>= 1.4.0'
 gem 'sidekiq-middleware'
 gem 'sidekiq-retries'
 gem 'god'
