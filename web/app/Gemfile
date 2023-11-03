@@ -98,7 +98,7 @@ gem 'yajl-ruby'
 #string formation
 gem 'kramdown'
 gem 'rails_autolink'
-gem 'RedCloth'
+gem 'RedCloth', '>= 4.3.3'
 gem 'loofah'
 gem 'premailer-rails'
 gem 'arachni'
