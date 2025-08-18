@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails', '7.1.5.2'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.3.13', '< 0.5'
 # Use SCSS for stylesheets
@@ -46,7 +46,7 @@ gem 'omniauth'
 gem 'omniauth-github'
 # redis && caching
 gem 'redis-rails'
-gem 'rails-settings-cached'
+gem 'rails-settings-cached', '>= 0.6.6'
 gem 'redis-namespace'
 #sidekiq
 gem 'sidekiq'
@@ -84,7 +84,7 @@ gem 'puma'
 gem 'foreman'
 gem 'actionpack-action_caching'
 gem 'spinjs-rails'
-gem 'activerecord-session_store'
+gem 'activerecord-session_store', '>= 1.1.1'
 gem 'crack'
 gem 'execjs'
 gem 'therubyracer'
@@ -97,7 +97,7 @@ gem 'terminal-table'
 gem 'yajl-ruby'
 #string formation
 gem 'kramdown'
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.7'
 gem 'RedCloth'
 gem 'loofah'
 gem 'premailer-rails'
