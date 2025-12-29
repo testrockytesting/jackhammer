@@ -40,7 +40,7 @@ gem 'chronic'
 #github api
 gem 'octokit'
 #gitlab
-gem 'gitlab'
+gem 'gitlab', '>= 4.0.0'
 #oauth
 gem 'omniauth'
 gem 'omniauth-github'
